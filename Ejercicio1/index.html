@@ -1,0 +1,95 @@
+<!--Mika Rodríguez Castro-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="icon" href="media/MHWIcon.png" >
+  <title>Especies MHW</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Lista de monstruos en Monster Hunter World">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css"> <!-- Esto cargaria un archivo de estilo, pero no es necesario en Fiddle porque lo hace automáticamente -->
+  <script src="script.js"></script> <!--Aquí podriamos cargar los scripts, también se puede en el <body>, y pasa lo mismo que con el css de antes, en verdad aquí no estamos cargando nada-->
+</head>
+
+<body>
+
+  <div class="banner">
+    <h1>Lista de especies de monstruos del Monster Hunter World</h1>
+  </div>
+  <hr class="rounded"></hr> <!--Linea divisoria-->
+
+  <audio controls autoplay> <!--Muchos browsers no admiten autoplay, es posible que haya que poner la música manualmente (arriba a la izquierda)-->
+    <source src="media/MHWTheme.mp3" type="audio/mpeg">
+    Tu explorador no admite audio
+  </audio>
+
+  <video class="trailer" width="640" height="480" controls>
+    <source src="media/MHWTrailer.mp4" type="video/mp4">
+    Tu explorador no admite video
+  </video>
+
+<div class="Lista">
+  <ul>
+    <li class = "Fav monster">Anjanath
+      <a href="https://monsterhunter.fandom.com/es/wiki/Anjanath" target="_blank">
+        <img src = "media/Anjanath.png" width="200" height="130">
+      </a>
+    </li>
+    <li class = "Fav monster">Deviljho
+      <a href="https://monsterhunter.fandom.com/es/wiki/Deviljho" target="_blank">
+        <img src = "media/Deviljho.png" width="196" height="120">
+      </a>
+    </li>
+    <li class = "NoFav monster">Vaal Hazak
+      <a href="https://monsterhunter.fandom.com/es/wiki/Vaal_Hazak" target="_blank">
+        <img src = "media/VaalHazak.png" width="210" height="174">
+      </a>
+    </li>
+    <li class = "NoFav monster">Kulu-Ya-Ku
+      <a href="https://monsterhunter.fandom.com/es/wiki/Kulu-Ya-Ku" target="_blank">
+        <img src = "media/KuluYaKu.png" width="200" height="250">
+      </a>
+    </li>
+    <li class = "Fav monster">Rajang
+      <a href="https://monsterhunter.fandom.com/es/wiki/Rajang" target="_blank">
+        <img src = "media/Rajang.png" width="198" height="151">
+      </a>
+    </li>
+    <li class = "Fav monster">Fatalis
+      <a href="https://monsterhunter.fandom.com/es/wiki/Fatalis" target="_blank">
+        <img src = "media/Fatalis.png" width="341" height="195">
+      </a>
+    </li>
+    <li class = "NoFav monster">Gran Jagras
+      <a href="https://monsterhunter.fandom.com/es/wiki/Gran_Jagras" target="_blank">
+        <img src = "media/GreatJagras.png" width="184" height="119">
+      </a>
+    </li>
+    <li class = "NoFav monster">Dodogama
+      <a href="https://monsterhunter.fandom.com/es/wiki/Dodogama" target="_blank">
+        <img src = "media/Dodogama.png" width="206" height="120">
+      </a>
+    </li>
+    <li class = "Fav monster">Alatreon
+      <a href="https://monsterhunter.fandom.com/es/wiki/Alatreon" target="_blank">
+        <img src = "media/Alatreon.png" width="206" height="146">
+      </a>
+    </li>
+    <li class = "NoFav monster">Beotodus
+      <a href="https://monsterhunter.fandom.com/es/wiki/Beotodus" target="_blank">
+        <img src = "media/Beotodus.png" width="200" height="125">
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div class="FavButtons">
+    <button class="btn Guay" onclick="Desaparece('Fav')"> Favs </button>
+    <button class="btn NoGuay" onclick="Desaparece('NoFav')"> No Favs </button>
+  </div>
+  <div class="colorButton">
+    <button class="btn colors" onclick="CambiaColor('Lista')">Color random</button>
+  </div>
+</body>
+<!--2024-2025-->
+</html>
